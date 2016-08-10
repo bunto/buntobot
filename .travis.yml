@@ -29,10 +29,3 @@ script:
 branches:
   only:
   - master
-
-## Heroku Deployment
-deploy:
-  provider: heroku
-  app: buntobot
-  api_key:
-    secure: AFatGyFe3tsaP0P5QGPPjnkwPrvc090avHfShWdF0RYooi7rRRoW6dEHfvm/TxwWFz2VPUnEyOZEgFe09kcNIC/vAxtGBG5nBKjvfK5uRtTn0LKHSzvK4/Sc8t2cWVI3bh2rZLLaGapOWHVEFLNqf3XPzPbFTnhRRj+AVmDrx1sDPQyZryFySO8hmNR3feVwC4/C4/pIEUXWJO64tkj6bJewN/+xSk7jQeHqgf0xL0ia5LMlD71lmvIgK1VoaTWKnfvaj7d9AD481/w7zeBEEdAjE9uBh9ceclU2HdHJyudxcOMz6v/WU/tNs5wPMo3Bg+z2xj1W8a0KYZ0xH+BYzKPRQJKbMel3qxCUwdWAmRy2d+HsWitAf2PgvBBHyifWOOdah1FjJsswrnN1ZS2poOkDmWttcpFr1ksXceN6IyXqIMnFp/hBYxLRlaZcJxXsK6r0to9m8tKD5+myybbOONpvAhPRQdP3oiWslzsk5LnxdqRBVrwCSPBv0DLwqxoJry+tOjSDWWckU8RwlVve0Vz6OYJFAnqgr23ZkEipM1UjjaOtB6XfBz32siCgD1LsoHe7vxD/6Hol4h1b8yqZg7dkYm0w6c1C12TqZ+kH7YxqIRcZkHm+gjEoLmOEOKxsSSCKJH/Xv4UzjGWgVsrzFBoG4zE7Gmh0OLfN8Ntqhpc=
