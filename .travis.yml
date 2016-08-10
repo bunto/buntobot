@@ -20,7 +20,10 @@ before_script:
  - chmod +x ./server.rb
 
 ## Run main script
-script: rake travis
+script:
+ - rake travis
+ - git add *
+ - git commit -m "Create Gemfile.lock and .bundle/"
 
 ## Branch whitelist
 branches:
