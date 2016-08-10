@@ -20,7 +20,7 @@ before_script:
  - chmod +x ./server.rb
 
 ## Run main script
-script: bundle exec rake travis
+script: rake travis
 
 ## Branch whitelist
 branches:
