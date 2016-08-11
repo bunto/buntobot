@@ -22,8 +22,7 @@ before_script:
 ## Run main script
 script:
  - rake travis
- - git add *
- - git commit -m "Create Gemfile.lock and .bundle/"
+ - cat Gemfile.lock
 
 ## Branch whitelist
 branches:
