@@ -21,8 +21,8 @@ before_script:
 
 ## Run main script
 script:
- - rake travis
  - cat Gemfile.lock
+ - rake travis
 
 ## Branch whitelist
 branches:
