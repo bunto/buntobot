@@ -1,6 +1,8 @@
 BuntoBot
 ========
 
+[![Build Status](https://travis-ci.org/bunto/buntobot.svg?branch=master)](https://travis-ci.org/bunto/buntobot)
+
 Listens for GitHub post-receive service hooks messages, runs bunto, and pushes the results back to GitHub. Designed to be run on Heroku to generate JSON representations of postdata for bunto-import.tk.
 
 Usage
